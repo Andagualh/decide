@@ -3,6 +3,7 @@ import os
 import sys
 
 #Haciendounpardecomentarios, que bien me lo paso
+#Comentario numero 2, el retorno
 
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "decide.settings")
