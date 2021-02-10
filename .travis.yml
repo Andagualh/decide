@@ -22,5 +22,8 @@ script:
   - coverage run --branch --source=. ./manage.py test --keepdb --with-xunit
   - coverage xml
   - python-codacy-coverage -r coverage.xml
-
-
+deploy:
+  provider: heroku
+  app: <<your app name>>
+  strategy: git
+  apikey: <your apikey>>
