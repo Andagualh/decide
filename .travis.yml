@@ -9,7 +9,7 @@ before_script:
 - psql -U postgres -c "ALTER USER decide CREATEDB"
 language: python
 python:
-- '3.8.5'
+- 3.8.5
 env:
 - DJANGO=2.0 DB=postgres
 install:
@@ -24,5 +24,5 @@ deploy:
   provider: heroku
   app: decide-prueba-andagualh
   strategy: git
-  api_key: $HEROKU_AUTH_TOKEN
-  
+  api_key:
+    secure: WGQX8ag/8OGwajxHzi2fNEBex8nB7X/wtQSfxKHOvAWdjSxD8kB+DBVZ7YjQFoIL1sx8Vbl/69m9vrzrANjP2bSgQyoLJCla6CGVXEt/lUua0W7s0upVj2l/dd3vS7+N6L+FfuDZKidNELy6OjPUGlmS1aEixTnpMqtF3iDnwnkdry2IeTW1SEyFsP/zbRxiv/tk6f3Xf5vLf8qnbcUePK3+S8PUju+Hm19CY8uDH0uETAmBDvoe62c/Ph1bM1ASt/UssyBW/bQJgmHca4yv5rncfEIh44QdoBlvgIsaTVJBoSqqMf+1jnXvWGRl/IBPSRU7V+wZbhg5igp7thFv+CRZVfM1Z0tx/JCY269bj/opgDeDBewrYo5stvRxNXTONOAzWY+TkQIq+xmZMwLKi7GjbL1zdVvao4qhaZLpoyo2ikP6WKNNFVfqHVtkxBpwtphw847kTWDMecu1Q+22MyEHmhoSxcjmdaOose8121JEDHnem/c6pUyoLJrLjZxp9stJtOaECIBrOWBAVGcOw3qjCAYUoKGScKaTZzjRbGAhluMjc7kEaKOe0ZOHDvNIERKPsesoMmZJS5j4G9XhFi0V7kKEjlX6WatJxTPxVkDA9wBR6qe2EOHnu4oZtzw6RwDFNZ1eEbyfd1+7o6Sisqv4CClQ906HGE2otPFEaJs=
