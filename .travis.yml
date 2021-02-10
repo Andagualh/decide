@@ -24,5 +24,5 @@ deploy:
   provider: heroku
   app: decide-prueba-andagualh
   strategy: git
-  api_key:
-    secure: MXv9OKMWr7aHrO7QwZwSSdtWKIimIcvxqnSfgrN+f2vLv/TpIigDADJtdyEKKGwKvUUIBmagdzDCYJAA2dTWnMMRmd4w4wy94Nj4+q6lCt5AtHx6DW/HOgXWEGQwwNNwrfqX+6KuuXjAD/92oM46f0pkbAzjk0ciDkwwKYWDwOzr+erG9NOZF0a/N5EraUhrxXWxIcLrvduWGGmBxNhXIuaG2Y+GKUfZ5Km+lFfiU++cuer8U3hPIpprAXkZnB/rGDzt3GD6h3flFIgAHCIloeMYnqpF34i84HjjBBhIKGp+0VPf21tTriGnn4viCor5fpGfTfuIYe4ZHrd4oE6NJiue1hUw5C32iiC6sbbQ6oTswlGCFZZVykDHRiUbfb1biQy4kaXlTqtDQwIXaPKFmYGf10UC7ATVD0kvEpIJSN34FKuuC7iVBIIVrBg+W2Te5c4GWl0eSqLjVtAR+YVjdzuPahcGvdyothcDuVudS3fQqtkuv15XHLGen8aXxQqVAiQtWjyB/Rp/FDdYZ00ZmMpRo8JZaFXxi5+E+Yv8isdnIUut07OuoiNP5YAgzEYJELfu9aF1AjhkhSOd+j52Z2vpHuBnGa+Hlmc9RasUijUZBEPqN8Npwi4oYMQwgp53jbXMN4X6oM8kMFY/y2pno2Q7w2r+nVlNKCRMlaP1P7o=
+  api_key: af87ba3f-e228-47ac-8d84-ebdac06148c0
+  
