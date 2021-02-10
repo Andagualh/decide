@@ -19,15 +19,5 @@ script:
   - coverage run --branch --source=. ./manage.py test --keepdb --with-xunit
   - coverage xml
   - python-codacy-coverage -r coverage.xml
-services:
-  - postgresql
-addons:
-  postgresql: "9.6"
-global:
-  -PGPORT=5432
-before script: 
-  - cp decide/local_settings.travis.py local_settings.py
-  - psql -c "create user decide with password 'decide'"
-  - psql -c "create database decide owner decide"
-  - python manage.py migrate
+
 
