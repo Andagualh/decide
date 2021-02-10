@@ -28,6 +28,6 @@ global:
 before script: 
   - cp decide/local_settings.travis.py local_settings.py
   - psql -c "create user decide with password 'decide'"
-  - psql .c "create database decide owner decide"
+  - psql -c "create database decide owner decide"
   - python manage.py migrate
 
