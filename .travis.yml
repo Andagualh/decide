@@ -24,5 +24,5 @@ deploy:
   provider: heroku
   app: decide-prueba-andagualh
   strategy: git
-  api_key: af87ba3f-e228-47ac-8d84-ebdac06148c0
+  api_key: $HEROKU_AUTH_TOKEN
   
