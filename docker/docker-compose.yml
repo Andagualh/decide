@@ -20,7 +20,7 @@ services:
     expose:
       - "5000"
     volumes:
-      - static:/app/static
+      - static:/app/decide/staticfiles
     depends_on:
       - db
     networks:
